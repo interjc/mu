@@ -1,0 +1,108 @@
+* {
+	margin:0;
+	padding:0;
+	outline: none;
+}
+body {
+	font:12px Verdana, Geneva, sans-serif;
+	text-align:center;
+	background:#161613;
+		color:#FFF;
+}
+a {
+	text-decoration:none;
+	padding:0 3px;
+	color: #8ad459;
+}
+a:hover {
+	background:#8ad459;
+	color:#000;
+}
+#wrap {
+	width:750px;
+	margin:0 auto;
+	text-align:left;
+}
+#header {
+	height:600px;
+	position:relative;
+	background: url(img/tree5.png) no-repeat 20px 10px;
+}
+#header h1 {
+	position:absolute;
+	left:30px;
+	bottom:15px;
+}
+#header h1 a {
+	display:block;
+	width:200px;
+	height:71px;
+	background: url(img/logo5.png) no-repeat;
+	text-indent:-10000px;
+}
+#nav {
+	position:absolute;
+	top:500px;
+	left:400px;
+}
+#nav ul {
+	list-style:none;
+}
+#nav ul li {
+	height:20px;
+	float:left;
+	line-height:20px;
+	padding:3px 5px;
+}
+#nav ul li a:hover {
+	background:#8ad459;
+	color: #000;
+}
+#nav ul li.li_hover {
+	border-bottom:3px solid #ccc;
+}
+#nav li.li_block {
+	padding-left:0;
+	padding-right:0;
+}
+#main {
+	height:40px;
+	line-height:20px;
+	margin:auto;
+	position:relative;
+}
+#main a {
+	position:absolute;
+	left:400px;
+	font-weight:bold;
+	font-size:20px;
+	padding-bottom:5px;
+}
+#main a:hover {
+	color:#fff;
+	background:none;
+	border-bottom:3px solid #CC0;
+}
+#footer {
+	line-height:20px;
+	background: #363633;
+	padding:25px 15px;
+}
+#footer div.f_con {
+	width:330px;
+	margin:0 0 0 auto;
+	text-align:left;
+}
+#footer div.f_con p strong {
+	width:100px;
+	display:block;
+	float:left;
+	text-align:right;
+}
+#footer div.f_con p span {
+	padding-left:10px;
+}
+.clear {
+	line-height:0;
+	clear:both;
+}
